@@ -35,4 +35,14 @@ public class BasicAnnotation {
     public void testCase5(){
         System.out.println("AfterClass在类运行之后开始执行");
     }
+
+    @BeforeSuite
+    public  void beforeSuite(){
+        System.out.println("beforeSuite开始了");
+    }
+
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("afterSuite结束了");
+    }
 }
