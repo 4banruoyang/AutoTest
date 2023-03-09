@@ -1,0 +1,4 @@
+进入Chapter1文件目录下，输入命令
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+解决浏览器请求时乱码命令
+java -Dfile.encoding=utf-8 -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c .\startupGet.json

@@ -1,0 +1,27 @@
+[
+  {
+    "description":"模拟不带参数的post请求",
+    "request":{
+      "uri":"/postDemo",
+      "method":"post"
+    },
+      "response":{
+      "text":"这是一个不带参数的post请求"
+    }
+  },
+
+  {
+    "description":"模拟一个带参数的post请求",
+    "request":{
+      "uri": "/postwithparse",
+      "method": "post",
+      "forms": {
+        "name": "zhangsan",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text": "这是一个带参数的post请求"
+    }
+  }
+]
