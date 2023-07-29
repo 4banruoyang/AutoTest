@@ -13,11 +13,11 @@
                    }
              },
            "response":{
-             "status":200,
-                 "json":{
-                   "zhangsan":"success",
-                   "status":2
-                   }
+             "status": 200,
+             "json": {
+               "zhangsan": "success",
+               "status": "1"
+             }
              }
        }
    ]
